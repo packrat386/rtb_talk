@@ -1,0 +1,96 @@
+# Rack To Basics
+What does your service really need?
+
+Aidan Coyle
+API Team
+acoyle@enova.com
+
+## A Gemfile
+
+.code gemfile.rb
+
+## The simplest app
+
+.code hello_world.rb
+
+## How do we run it?
+
+.code config.ru
+
+run with `bundle exec rackup`
+
+## We need routing
+
+.code basic_router.rb
+
+## What are the routes?
+
+.code basic_routed_status.rb
+
+## Tying it together
+
+.code basic_routed_app.rb
+
+## A note on require
+
+You can make your requires pretty by doing this:
+
+.code load_path.rb
+
+## We have DSL's at home
+
+.code using_dsl.rb
+
+## We have DSL's at home
+
+.code route_dsl.rb /START CLASS OMIT/,/END CLASS OMIT/
+
+## We have DSL's at home
+
+.code route_dsl.rb /START BUILDER OMIT/,/END BUILDER OMIT/
+
+## We have DSL's at home
+
+.code route_dsl.rb /START APP OMIT/,/END APP OMIT/
+
+## We have DSL's at home
+
+.code dsld_handler.rb
+
+## How bout some functionality?
+
+.code simple_greeter.rb /START CLASS OMIT/,/END CLASS OMIT/
+
+## Where's my template?
+
+.code simple_greeter.rb /START TMPL OMIT/,/END TMPL OMIT/
+
+## We have helpers at home
+
+.code elegant_greeter.rb
+
+## We have helpers at home
+
+.code greeter_template.erb
+
+## We have helpers at home
+
+.code template_helper.rb
+
+## "Real" functionality
+
+.code horoscope.rb
+
+## Takeways
+
+Rails is only ruby
+
+Simple things can be simple
+
+Try pushing your tools to exhaustion
+
+## Links
+
+.link https://github.com/packrat386/rack_to_basics
+
+
